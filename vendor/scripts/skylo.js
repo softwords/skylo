@@ -1,7 +1,7 @@
 /*!
  * jQuery lightweight plugin boilerplate
  * Original author: @ajpiano
- * Further changes, comments: @addyosmani
+ * Further changes, comments: @addyosmani, @softwords
  * Licensed under the MIT license
  */
 
