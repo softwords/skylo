@@ -1,8 +1,12 @@
 {
-  "name":"skylo",
-  "version":"1.0.1",
-  "main":[
+  "name": "skylo",
+  "version": "1.0.1",
+  "main": [
     "vendor/styles/skylo.css",
     "vendor/scripts/skylo.js"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "jquery": "^2.1.0"
+  }
 }
