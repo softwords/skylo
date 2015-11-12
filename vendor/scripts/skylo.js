@@ -114,7 +114,17 @@
     Plugin.prototype.get = function(){
       return this._width;
     }
-
+    /**
+     * Rewind the progress bar to the beginning
+     * @returns void
+     */  
+    Plugin.prototype.unwind = function () {
+      var that = this;
+      $('.progress.skylo .bar').width('1%');
+      _disappear(400, function () {
+        that.remove();
+      });
+    };
     function _disappear(delay,callback){
 
       callback = callback || null;
